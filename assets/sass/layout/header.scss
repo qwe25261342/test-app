@@ -1,0 +1,47 @@
+header {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px #cccccc;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    .box {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        height: 40px;
+        max-width: 1400px;
+        margin: auto;
+        .logo {
+            height: 80%;
+            margin-top: 6px;
+        }
+        .searchbox {
+            line-height: 40px;
+            width: 55%;
+            input {
+                height: 60%;
+                width: 80%;
+            }
+            button {
+                border: none;
+                background-color: white;
+                height: 35px;
+                .search {
+                    height: 20px;
+                }
+            }
+        }
+        .avatarbox {
+            button {
+                border: none;
+                background-color: white;
+                .user {
+                    margin-top: 6px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
