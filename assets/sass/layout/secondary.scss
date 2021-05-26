@@ -1,0 +1,36 @@
+body {
+    overflow-x: hidden;
+
+    .cont {
+        max-width: 1400px;
+        margin: auto;
+        .buttonbox {
+            padding-top: 20px;
+            padding-bottom: 5px;
+            width: 100%;
+            display: inline-flex;
+            flex-wrap: wrap;
+            align-content: space-around;
+            justify-content: center;
+            a {
+                margin: 0 10px;
+                border-radius: 50px;
+                border: 2px solid #d3d3d3;
+                font-weight: 700;
+                text-decoration:none;
+                color: #fff;
+                background-color: #a0a8ad;
+            }
+            :first-child {
+                color: #fff;
+                background-color: #6c757d;
+            }
+            :hover {
+                color: #fff;
+                background-color: #6c757d;
+            }
+        }
+       
+        
+    }
+}
